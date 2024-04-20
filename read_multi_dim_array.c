@@ -19,12 +19,7 @@ char** init_board(int numRows, int numCols) {
 void print_board(char** board, int numRows, int numCols){
 
     // do something to print the board
-    for (int i = 0; i < numRows; i++) {
-        for (int j = 0; j < numCols; j++){
-            printf("%c", board[i][j]);
-        }
-        printf("\n");
-    }
+    
 }
 
 int main(int argc, char** argv){
