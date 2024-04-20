@@ -23,8 +23,8 @@ void print_board(char** board, int numRows, int numCols){
 }
 
 int main(int argc, char** argv){
-    char** board = init_board(NUM_ROWS, NUM_COLS);
-    print_board(board, NUM_ROWS, NUM_COLS);
+    // print a Tic-Tac-Toe board then set the middle cell to X
 
+    
     return 0;
 }
