@@ -11,7 +11,7 @@ int my_str_len(char* string){
     while (string[len]) {
         len++;
     }
-    return len;
+	return len;    
 }
 
 char* my_mem_cpy(char* orig) {
